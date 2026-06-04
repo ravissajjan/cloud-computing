@@ -1082,14 +1082,14 @@ aws configservice put-config-rule \
 
 ### Lab Overview
 
-| Task | Time | What You'll Do |
-|------|------|----------------|
-| 1. Secure Root Account | 5 min | Enable MFA, create admin user |
-| 2. Create VPC Architecture | 10 min | Public + private subnets |
-| 3. Configure Security Groups | 10 min | Web, app, and DB tiers |
-| 4. Enable Monitoring | 10 min | CloudTrail, GuardDuty, Config |
-| 5. Set Up Billing Alert | 5 min | $10 threshold notification |
-| 6. Verify & Cleanup | 5 min | Test access, terminate resources |
+| Task | What You'll Do |
+|------|----------------|
+| 1. Secure Root Account | Enable MFA, create admin user |
+| 2. Create VPC Architecture | Public + private subnets |
+| 3. Configure Security Groups | Web, app, and DB tiers |
+| 4. Enable Monitoring | CloudTrail, GuardDuty, Config |
+| 5. Set Up Billing Alert | $10 threshold notification |
+| 6. Verify & Cleanup | Test access, terminate resources |
 
 ### Objective
 Implement security best practices on an AWS account.
