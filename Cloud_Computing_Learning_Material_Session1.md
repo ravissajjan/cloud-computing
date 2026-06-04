@@ -101,15 +101,44 @@ Cloud computing = On-demand delivery of compute, storage, and networking resourc
 
 ### Service Models
 ```
-┌────────────────────────────────────────────────────────┐
-│  SaaS    │ Gmail, Salesforce         │ Use application │
-├──────────┼───────────────────────────┼─────────────────┤
-│  PaaS    │ Heroku, AWS Elastic       │ Deploy code     │
-│          │ Beanstalk                 │                 │
-├──────────┼───────────────────────────┼─────────────────┤
-│  IaaS    │ EC2, Azure VMs            │ Manage VMs      │
-└──────────┴───────────────────────────┴─────────────────┘
+┌────────────────────────────────────────────────────────────────────────────┐
+│  Model   │ Examples                              │ You Manage              │
+├──────────┼───────────────────────────────────────┼─────────────────────────┤
+│  SaaS    │ Gmail, Zoom, Slack, Netflix,          │ Just use the app        │
+│          │ Canva, Figma, Google Docs, Spotify    │ (zero setup!)           │
+├──────────┼───────────────────────────────────────┼─────────────────────────┤
+│  PaaS    │ Vercel, Netlify, Heroku,              │ Deploy your code        │
+│          │ Railway, Google App Engine            │ (no server config)      │
+├──────────┼───────────────────────────────────────┼─────────────────────────┤
+│  IaaS    │ AWS EC2, Azure VMs, DigitalOcean,     │ Full VM control         │
+│          │ Google Compute Engine, Linode         │ (OS, networking, etc.)  │
+└──────────┴───────────────────────────────────────┴─────────────────────────┘
 ```
+
+### Service Models Analogy: Pizza 🍕
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│  ON-PREMISES     │  IaaS            │  PaaS            │  SaaS             │
+│  (Make at home)  │  (Take & bake)   │  (Delivery)      │  (Dine-in)        │
+├──────────────────┼──────────────────┼──────────────────┼───────────────────┤
+│  Buy ingredients │  Get raw pizza   │  Order online    │  Walk into        │
+│  Make dough      │  Bake at home    │  They make &     │  restaurant       │
+│  Add toppings    │  You control     │  deliver         │  They serve you   │
+│  Bake it         │  the oven        │  Just eat!       │  Just eat!        │
+│  Serve it        │                  │                  │                   │
+├──────────────────┼──────────────────┼──────────────────┼───────────────────┤
+│  YOU manage:     │  YOU manage:     │  YOU manage:     │  YOU manage:      │
+│  EVERYTHING      │  OS, Runtime,    │  Just your       │  NOTHING          │
+│                  │  Data, App       │  Code & Data     │  (just use it)    │
+└──────────────────┴──────────────────┴──────────────────┴───────────────────┘
+```
+
+### Student-Friendly Examples
+| Model | What Students Use | Real-World Example |
+|-------|-------------------|-------------------|
+| **SaaS** | Google Docs for assignments, Zoom for classes | Netflix streaming movies |
+| **PaaS** | Vercel to deploy Next.js portfolio, Netlify for React apps | Spotify running their backend |
+| **IaaS** | AWS EC2 for final year project server | Banks running core systems |
 
 ### Major Providers (2026)
 - **AWS (~31%)**: Most services, largest market share
